@@ -1,16 +1,19 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Anushka Gupta
+avatar: /static/images/anushka.jpg
+occupation: Computer Science
+company: PES University
+email: anushkagupta100@gmail.com
+twitter: https://twitter.com/anushka_guptaa
+linkedin: https://www.linkedin.com/in/anushkaguptaa/
+github: https://github.com/anushkaguptaaa/
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+HI! Welcome to my digital home on the internet
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+I am currently in my final year at PES University, Bangalore. This is my place to talk about my ideas, experiences, books and shower thoughts. Feel free to navigate around using tags if that's any easier :)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+The project I am currently working on is my Capstone project, Forensic Analysis for a compromised distributed environment.
+Would love to ideate? You can always reach out to me on any of my mentioned socials, though mail is preferred.
+
+Have a nice morning/evening ☕
