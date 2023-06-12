@@ -1,21 +1,21 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
+  title: 'Anushka',
   author: 'Anushka Gupta',
   headerTitle: 'Anushka',
   description: 'Welcome to my internet home. Feel free to look around :)',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://anushkagupta.in/',
+  siteRepo: 'https://github.com/anushkaguptaaa/website',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  email: 'anushkagupta100@gmail.com',
+  github: 'https://github.com/anushkaguptaaa/',
+  twitter: 'https://twitter.com/anushka_guptaa',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/anushkaguptaa',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
