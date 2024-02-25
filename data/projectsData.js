@@ -1,19 +1,16 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Containment of Compromised Nodes in a Distributed Environment.',
+    description: `What if you could deploy a software that pings you as soon as a node is attacked? 🤔
+    Capstone Project.`,
+    imgSrc: '/static/images/capstone.png',
+    href: 'https://www.canva.com/design/DAFgXZvmZVQ/f0xAAPdpFbfcE1PUOcSujw/view?utm_content=DAFgXZvmZVQ&utm_campaign=designshare&utm_medium=link&utm_source=editor',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Flow',
+    description: `Streaming Data Processor using Apache Spark and Kafka. Database Technologies.`,
+    imgSrc: '/static/images/flow.png',
+    href: 'https://github.com/anushkaguptaaa/flow',
   },
 ]
 
