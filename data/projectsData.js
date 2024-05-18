@@ -12,6 +12,18 @@ const projectsData = [
     imgSrc: '/static/images/flow.png',
     href: 'https://github.com/anushkaguptaaa/flow',
   },
+  {
+    title: 'uniNote',
+    description: `Java MVC application to share notes using MongoDB and design patterns`,
+    imgSrc: '/static/images/note-app.png',
+    href: 'https://github.com/anushkaguptaaa/NoteMasti',
+  },
+  {
+    title: 't3',
+    description: `A Simple Tic Tac Toe in Go to pull me out of a rut.`,
+    imgSrc: '/static/images/draw.png',
+    href: 'https://github.com/anushkaguptaaa/t3',
+  },
 ]
 
 export default projectsData
