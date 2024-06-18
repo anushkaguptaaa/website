@@ -9,7 +9,17 @@ linkedin: https://www.linkedin.com/in/anushkaguptaa/
 github: https://github.com/anushkaguptaaa/
 ---
 
-HI! Welcome to my digital home on the internet
+HI! Welcome to my digital home on the internet. Consider this as a timeline of sorts
+
+# Now
+
+- Learning Go 🥳 from [Introducing Go: Build Reliable, Scalable Programs](https://amzn.in/d/7lxPtXA)
+- Started swimming! Current timing is 29 seconds for 25 meters. Working on my endurance, swam a 1000 meters! [18th June 24]
+- Currently reading: Mindset. Really struggling with reading lately :/
+- Most interesting article: [Entropy Explained, With Sheep](https://aatishb.com/entropy/)
+- Have slipped out of meditating, really struggling to make it happen.
+
+# Past
 
 - I am currently in my final year at PES University, Bangalore.
 - Interning at [Schneider](https://www.se.com/ww/en/)!
