@@ -7,6 +7,12 @@ const projectsData = [
     href: 'https://www.canva.com/design/DAFgXZvmZVQ/f0xAAPdpFbfcE1PUOcSujw/view?utm_content=DAFgXZvmZVQ&utm_campaign=designshare&utm_medium=link&utm_source=editor',
   },
   {
+    title: 'Proof of Work',
+    description: `This repository contains all the program ever written while learning from O’Reilly's Introducing Go.`,
+    imgSrc: '/static/images/mascot.jpg',
+    href: 'https://github.com/anushka-se/go',
+  },
+  {
     title: 'Flow',
     description: `Streaming Data Processor using Apache Spark and Kafka. Database Technologies.`,
     imgSrc: '/static/images/flow.png',
