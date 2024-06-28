@@ -1,0 +1,117 @@
+---
+title: 'How I resolved the Video Embed Issue'
+date: '2024-06-28'
+tags: ['resolved-issues']
+draft: false
+summary: 'After sitting with a poor css website for a week'
+---
+
+The article that you see named [Sahil Shah Recommends](https://www.anushkagupta.in/blog/sahil_reccos) took more effort and pain than just the looks of it.
+
+The video embed in that article which is now a dynamic thing was initally static and looked very very shabby. I went around to the Discussion's forum of the base project on which this website is built upon.
+
+Got a lot of help from there. <br/>
+Thanks [Ray](https://github.com/ray-android), for not giving up on me and answering my questions :)
+
+# The Problem
+
+When I was using the iframe code for linking the YouTube video, it was not being rendered.
+
+![img](/static/images/video_embed/mess-1.png)
+
+<br />
+Upon inspection it showed `div#sub-frame-error` as shown in the image above. This turned out to be occuring
+due to [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) that was added
+recently which was blocking youtube.com
+
+To resolve this issue, you have to whikelist youtube.com under `frame-src` and not `script-src` an error which I was making.
+
+Voila! Your YouTube Video Embed is now working.
+
+# The Problem: Part 2
+
+Having a working YouTube Video Embed on your website is only half-job done. It has to sit properly within the CSS components of your website and with the right size.
+
+Still a quick-fix issue: Just change the `width` and `height` parameter in the iframe.
+
+What is the bigger issue is for it to size according to the screen. It might look good in the desktop but not on mobile, and vice-versa.
+
+> **Your embed should have dynamic sizing**
+
+Adding a simple CSS within the `.mdx` file will not work. It throws an error.
+The next thing that one would try is to put style element inside the `iframe`. Weirdly, that doesn't work either and leaves a `Server Error`.
+
+Then I tried this
+
+```html
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/XNbtuhxNj6Q"
+  title="45 Book Recommendations by @SahilShahcomedy (Part 1)"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowFullScreen
+  style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '560px',
+    height: '315px',
+  }}
+></iframe>
+```
+
+This did half the job xD Pretty funny in my opinion.
+
+![img](/static/images/video_embed/mess-2.png)
+
+<br />
+
+# The Solution
+
+Go to `css/prism.css` and added the following code in the bottom of the file.
+
+```css
+.container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+```
+
+Without making any explicit imports to the `.mdx` file, enclose the `iframe` in a `div` <br/>
+Following is the tweaked code:
+
+```html
+<div class="container" align="center">
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/XNbtuhxNj6Q"
+    title="45 Book Recommendations by @SahilShahcomedy (Part 1)"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    class="video"
+  ></iframe>
+</div>
+```
+
+Here's the [Link](https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed) to the original article which gave me the idea in the first place.
+
+And we are done, that's how it cleanly renders!
+![img](/static/images/video_embed/mess-3.png)
+
+![img](/static/images/video_embed/mess-4.png)
+
+And, we have finally resolved this issue. <br/>
+If you are interested in reading the GitHub Discussion: [Visit Discussion](https://github.com/timlrx/tailwind-nextjs-starter-blog/discussions/116#discussioncomment-9848551)
