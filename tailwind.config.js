@@ -35,6 +35,7 @@ module.exports = {
         DEFAULT: {
           css: {
             color: theme('colors.gray.700'),
+            p: { textAlign: 'justify', hyphens: 'auto' },
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {

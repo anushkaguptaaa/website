@@ -2,7 +2,8 @@ const siteMetadata = {
   title: 'Anushka',
   author: 'Anushka Gupta',
   headerTitle: 'Anushka',
-  description: 'Welcome to my internet home. Feel free to look around :)',
+  description:
+    "Welcome to my fortress of virtual solidute. Don't know where to start from? Checkout my About page :)",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://anushkagupta.in/',

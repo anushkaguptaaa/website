@@ -2,33 +2,21 @@
 name: Anushka Gupta
 avatar: /static/images/anushka.jpg
 occupation: Computer Science
-company: PES University
+company: University of Illinois Chicago
 email: anushkagupta100@gmail.com
 twitter: https://twitter.com/anushka_guptaa
 linkedin: https://www.linkedin.com/in/anushkaguptaa/
 github: https://github.com/anushkaguptaaa/
 ---
 
-HI! Welcome to my digital home on the internet. Consider this as a timeline of sorts
+# Hey!
 
-# Now
+I'm currently a grad student at UIC, pursuing my Masters in Computer Science and my main focus is databases and systems! I am also currently working as a Fullstack developer at SA Tech at UIC.
 
-- Learning Go 🥳 from [Introducing Go: Build Reliable, Scalable Programs](https://amzn.in/d/7lxPtXA)
-- Started swimming! Current timing is 29 seconds for 25 meters. Working on my endurance, swam a 1000 meters! [18th June 24]
-- Currently reading: Mindset. Really struggling with reading lately :/
-- Most interesting article: [Entropy Explained, With Sheep](https://aatishb.com/entropy/)
-- Have slipped out of meditating, really struggling to make it happen.
+My love for computers began when I got the chance to break my home laptop when I was in school - hard deleting windows and corrupting the storage system in the pursuit of installing linux into the laptop. My main interests made a lot of pivots from special relativity in Physics (Fun Article: [Entropy Explained, With Sheep](https://aatishb.com/entropy/)) to Conics in Maths, to eventually building out consistent distributed systems using consensus algorithms. Which eventually became my first published paper as a leading author. I've previously worked at Schneider for about three years wearing multiple hats of being a Search Engineer, Database Designer and Engineer and briefly a fullstack developer as an internal side-gig.
 
-# Past
+I am a <i>very</i> strong believer of being 'jackass of all trades'. Really takes the pressure off of being a jack. One doesn't need to be good to have their neurons firing up when it makes a connection from something completely obscure. Outside of CompSci, I love playing sports, photography and reading. Much to my mother's dismay, I've become a coffee enthusiast in the past couple of years - Brewing, percolating, and steaming milk; I've learnt it all.
 
-- I am currently in my final year at PES University, Bangalore.
-- Interning at [Schneider](https://www.se.com/ww/en/)!
-- Finished my Capstone project on Distributed Systems and Computer Networks!
-- Absolutely love talking about stocks, productivity, books, camera, vlogging and personal finance
-- I love working out (though I am struggling to keep up with working out 5-6 times a week. Its really hard when you have just begun corporate ;-; )
-- Currently reading [No Rules Rules](https://amzn.eu/d/9gjNreZ) by Reed Hastings and Erin Meyer
-- An article I found interesting: [How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
+If you've ever spoken to me in the past, you know I can nerd out about anything and everything. If there's something you want to discuss, collaborate or have it run by me once, do connect :)
 
-This is my place to talk about my ideas, experiences, books and shower thoughts. Feel free to navigate around using tags if that's any easier :) Would love to ideate? You can always reach out to me on any of my mentioned socials, though mail is preferred.
-
-Have a nice morning/evening ☕
+Welcome to my digital home on the internet. Consider this as a timeline and my space to openly learn and relearn things about life. Cheers!
